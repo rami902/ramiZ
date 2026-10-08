@@ -28,9 +28,9 @@ export const profile = {
 
   // ---- FILES (all inside /public) ----------------------------------------
   /** Replace public/images/profile.svg with your photo, then set this to e.g. "images/profile.jpg" */
-  photo: "images/profile.svg",
+  photo: "images/profile.jpg",
   photoAlt: "Portrait of Rami Salam Zarifa",
-  photoIsPlaceholder: true,
+  photoIsPlaceholder: false,
   cv: "cv.pdf",
   portfolioPdf: "portfolio.pdf",
 
