@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rami Salam Zarifa — Architecture Student | Shop Drawing &amp; Interior Design Portfolio</title>
+    <meta name="description" content="Portfolio of Rami Salam Zarifa, architecture student at Damascus University: shop drawings, interior elevations and quantity take-offs for residential projects in the UAE and Saudi Arabia." />
+    <meta name="author" content="Rami Salam Zarifa" />
+    <meta name="theme-color" content="#f2ede6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141311" media="(prefers-color-scheme: dark)" />
+    <!-- SEO: after you know your GitHub Pages URL, set it in the 3 places marked SITE_URL (see README) -->
+    <link rel="canonical" href="https://SITE_URL/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rami Salam Zarifa — Architecture Student | Portfolio" />
+    <meta property="og:description" content="Shop drawings, interior elevations and quantity take-offs — selected residential interior work." />
+    <meta property="og:url" content="https://SITE_URL/" />
+    <meta property="og:image" content="https://SITE_URL/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script>
+      // Apply the saved/system theme before first paint to avoid a flash.
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          document.documentElement.dataset.theme = t;
+        } catch (e) {}
+        document.documentElement.classList.add("js");
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript><p style="padding:2rem;font-family:sans-serif">This portfolio needs JavaScript. Contact: zryftramy32@gmail.com</p></noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

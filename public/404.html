@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Page not found — Rami Salam Zarifa</title>
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f2ede6;color:#1c1a17;font-family:system-ui,sans-serif}
+main{max-width:34rem;padding:2rem}h1{font:400 5rem/1 Georgia,serif;margin:0 0 1rem}p{color:#6d655b;line-height:1.6}a{color:#1c1a17}
+@media(prefers-color-scheme:dark){body{background:#141311;color:#ede7dd}a{color:#ede7dd}p{color:#a0978a}}</style></head>
+<body><main><h1>404</h1><p>This page does not exist. The portfolio lives on a single page — head back to the start.</p>
+<p><a id="home" href="/">Return to the portfolio →</a></p></main>
+<script>
+  // On a GitHub Pages project site (user.github.io/repo/) the home page is /repo/; on a custom domain it is /.
+  var seg = location.pathname.split("/")[1];
+  if (/\.github\.io$/.test(location.hostname) && seg) document.getElementById("home").href = "/" + seg + "/";
+</script></body></html>

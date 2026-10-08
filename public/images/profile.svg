@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Profile photo placeholder">
+  <rect width="800" height="1000" fill="#d9cfc2"/>
+  <g stroke="#1c1a17" stroke-opacity=".12" stroke-width="1"><path d="M0 250h800M0 500h800M0 750h800M200 0v1000M400 0v1000M600 0v1000"/></g>
+  <circle cx="400" cy="395" r="118" fill="#b9ad9d"/>
+  <path d="M160 1000c0-190 105-330 240-330s240 140 240 330z" fill="#b9ad9d"/>
+  <text x="400" y="880" text-anchor="middle" font-family="monospace" font-size="22" letter-spacing="4" fill="#1c1a17" fill-opacity=".6">PLACEHOLDER</text>
+  <text x="400" y="918" text-anchor="middle" font-family="monospace" font-size="18" letter-spacing="2" fill="#1c1a17" fill-opacity=".5">REPLACE public/images/profile.svg</text>
+</svg>
